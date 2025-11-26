@@ -7,6 +7,9 @@
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
+CREATE DATABASE IF NOT EXISTS `estetica_beleza_simples` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `estetica_beleza_simples`;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
